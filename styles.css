@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height:100vh;
+    background: #ece0f1;
+    align-items: center;
+}
+.container{
+    width:650px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    border: 1rem solid #000;
+    background: #8bb44b;
+    position: relative;
+    box-shadow: inset -3px -3px 3px rgba(0, 0, 0, 0.3), -3px 3px 7px rgba(255, 255, 255, 1);
+}
+
+
+.container .screen{
+    border-radius: 12px;
+    width:100%;
+}
+
+.container .icons{
+    position: absolute;
+    top:10px;
+    right:10px;
+    color: #313234;
+
+}
+.container .screen .clock{
+    margin:-10px;
+}
+.container .screen .clock .time{
+    font-size: 130px;
+    color: #313234;
+    text-align: center;
+}
+
+.container .screen .clock .time #am_pm{
+    position: absolute;
+    right: 0;
+}
+
+.container .screen hr{
+    width: 90%;
+    margin:auto;
+    margin-top: 0%;
+    border: 2px solid #313234;
+}
+
+.container .screen .calendar{
+    margin: 5px;
+    margin-right: 5%;
+    
+    float:right;
+}
+
+.container .screen .calendar #day p{
+    font-weight: 600;
+    color: #313234;
+
+}
+
+.container .screen .calendar #year{
+    text-align: end;
+    color: #313234;
+
+}
